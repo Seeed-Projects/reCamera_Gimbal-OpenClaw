@@ -12,12 +12,12 @@ Use **OpenClaw** to control the motor, speaker, microphone, LED, and camera of t
 ### Node-RED Integration
 I have uploaded a JSON file for the reCamera Gimbal, which you can easily import into Node-RED. This configuration exposes two HTTP interfaces for device control:
 
-* **Control Dual-Motor Angle ** (Please replace `192.168.31.198` with the actual IP address of your reCamera Gimbal:
+* **Control Dual-Motor Angle ** (Please replace `192.168.31.198` with the actual IP address of your reCamera Gimbal):
     ```http
     http://192.168.31.198:1880/api/gimbal?yaw=90&pitch=45
     ```
 
-* **Take Photos ** (Please replace `192.168.31.198` with the actual IP address of your reCamera Gimbal:
+* **Take Photos ** (Please replace `192.168.31.198` with the actual IP address of your reCamera Gimbal):
     ```http
     http://192.168.31.198:1880/api/photo
     ```
