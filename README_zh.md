@@ -1,5 +1,7 @@
 # reCamera_Gimbal-OpenClaw
 
+![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
+
 **简体中文** | [English](./README.md)
 
 ---
@@ -10,12 +12,12 @@
 ### Node-RED 集成
 本项目提供了一个适用于 reCamera Gimbal 的 JSON 文件，您可以直接将其导入到 Node-RED 中。该配置开放了两个 HTTP 接口以供调用：
 
-* **控制双电机角度(请替换192.168.31.198为你的reCamera Gimbal的真实IP地址)**：
-    ```http   ”“http
+* **控制双电机角度**（请将 `192.168.31.198` 替换为您 reCamera Gimbal 的真实 IP 地址）：
+    ```http
     http://192.168.31.198:1880/api/gimbal?yaw=90&pitch=45
     ```
-* **控制拍照(请替换192.168.31.198为你的reCamera Gimbal的真实IP地址)**：
-    ```http   ”“http
+* **控制拍照**（请将 `192.168.31.198` 替换为您 reCamera Gimbal 的真实 IP 地址）：
+    ```http
     http://192.168.31.198:1880/api/photo
     ```
 
