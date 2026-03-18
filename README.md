@@ -16,12 +16,12 @@ I have uploaded a JSON file for the reCamera Gimbal, which you can easily import
 
 * **Control Dual-Motor Angle / 控制双电机角度** (Please replace `192.168.31.198` with the actual IP address of your reCamera Gimbal / 请将 `192.168.31.198` 替换为您云台的实际 IP 地址):
     ```http
-    [http://192.168.31.198:1880/api/gimbal?yaw=90&pitch=45](http://192.168.31.198:1880/api/gimbal?yaw=90&pitch=45)
+    http://192.168.31.198:1880/api/gimbal?yaw=90&pitch=45
     ```
 
 * **Take Photos / 拍照** (Please replace `192.168.31.198` with the actual IP address of your reCamera Gimbal / 请将 `192.168.31.198` 替换为云台的实际 IP 地址):
     ```http
-    [http://192.168.31.198:1880/api/photo](http://192.168.31.198:1880/api/photo)
+    http://192.168.31.198:1880/api/photo
     ```
 
 ### Skills Configuration / 技能配置
