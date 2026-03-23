@@ -1,12 +1,12 @@
 -----
 
-# README\_zh.md
+# README\_zh.md   自述\ _zh.md
 
 [English   英语](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/blob/main/README.md) | [简体中文]
 
 -----
 
-![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)! [reCamera_Gimbal& OpenClaw) (https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
+![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
 
 # reCamera\_Gimbal-OpenClaw
 
@@ -62,7 +62,7 @@ openclaw_V2.json
 
 将 Skill 文件夹 `recamera-gimbal/` 复制到你的 OpenClaw 工作空间：
 
-```bash   ”“bash
+```bash   ”“bash   “bash”;“bash
 ~/.openclaw/workspace/skills/recamera-gimbal/~ / .openclaw /工作区/技能/ recamera-gimbal /
 ```
 
