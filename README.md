@@ -2,8 +2,6 @@
 
 ---
 
-# README.md (English)
-
 ![reCamera\_Gimbal\&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
 
 # reCamera_Gimbal-OpenClaw
@@ -137,18 +135,21 @@ http://<DEVICE_IP>:1880/api/photo
 
 ## How It Works
 
-graph TD
-    Camera[camera node] --> Model[YOLO Detection]
-    Model --> SaveImage[Save Latest Image]
-    Model --> Preview[Web Preview Rendering]
+graph LR
+    Core[reCamera Gimbal System]
 
-    GimbalAPI[Gimbal API] --> Parser[Parse API & Format]
-    Parser --> Motor[Motor Control (CAN)]
+    Core --> Camera
+    Camera --> Capture[Image Capture]
+    Camera --> Preview[Web Preview]
 
-    PhotoAPI[Photo API] --> ServePhoto[Serve Base64 Image]
+    Core --> API
+    API --> GimbalAPI[Gimbal Control]
+    API --> PhotoAPI[Photo API]
 
-    SaveImage --> Global[(Global Image Cache)]
-    Global --> ServePhoto
+    Core --> Processing
+    Processing --> Model[YOLO Detection]
+    Processing --> Storage[Image Cache]
+
 
 
 ### Flow Summary
