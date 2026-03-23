@@ -1,7 +1,5 @@
 -----
 
-# README\_zh.md   自述\ _zh.md
-
 [English   英语](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/blob/main/README.md) | [简体中文]
 
 -----
