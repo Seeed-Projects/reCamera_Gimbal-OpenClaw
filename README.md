@@ -1,4 +1,4 @@
-Here are the generated README files based strictly on the project contents you provided.
+
 
 ---
 
@@ -137,20 +137,19 @@ http://<DEVICE_IP>:1880/api/photo
 
 ## How It Works
 
-```mermaid
 graph TD
     Camera[camera node] --> Model[YOLO Detection]
     Model --> SaveImage[Save Latest Image]
     Model --> Preview[Web Preview Rendering]
 
-    HTTP_Gimbal[/api/gimbal/] --> Parser[Parse API & Format]
+    GimbalAPI[Gimbal API] --> Parser[Parse API & Format]
     Parser --> Motor[Motor Control (CAN)]
 
-    HTTP_Photo[/api/photo/] --> ServePhoto[Serve Base64 Image]
+    PhotoAPI[Photo API] --> ServePhoto[Serve Base64 Image]
 
     SaveImage --> Global[(Global Image Cache)]
     Global --> ServePhoto
-```
+
 
 ### Flow Summary
 
