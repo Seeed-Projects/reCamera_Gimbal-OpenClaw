@@ -137,16 +137,16 @@ http://<DEVICE_IP>:1880/api/photo
 
 ```mermaid
 graph TD
-    Camera[摄像头] --> Model[YOLO 检测]
-    Model --> SaveImage[保存图像]
-    Model --> Preview[预览渲染]
+    Camera[Camera] --> Model[YOLO Detection]
+    Model --> SaveImage[Save Image]
+    Model --> Preview[Preview Rendering]
 
-    HTTP_Gimbal[/api/gimbal/] --> Parser[参数解析]
-    Parser --> Motor[电机控制]
+    HTTP_Gimbal[/api/gimbal/] --> Parser[Parameter Parsing]
+    Parser --> Motor[Motor Control]
 
-    HTTP_Photo[/api/photo/] --> ServePhoto[返回图片]
+    HTTP_Photo[/api/photo/] --> ServePhoto[Return Photo]
 
-    SaveImage --> Global[(全局缓存)]
+    SaveImage --> Global[(Global Cache)]
     Global --> ServePhoto
 ```
 
