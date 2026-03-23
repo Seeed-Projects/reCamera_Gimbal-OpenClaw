@@ -2,11 +2,11 @@
 
 # README\_zh.md
 
-[English](https://www.google.com/search?q=./README.md) | [简体中文]
+[English   英语](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/blob/main/README.md) | [简体中文]
 
 -----
 
-![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
+![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)! [reCamera_Gimbal& OpenClaw) (https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
 
 # reCamera\_Gimbal-OpenClaw
 
@@ -30,7 +30,7 @@
 
 ## 前提条件
 
-> [\!IMPORTANT]
+> [\!IMPORTANT]   在[\ !重要的)
 > 你需要准备以下组件：
 
   * **reCamera Gimbal 设备** (RISC-V 边缘 AI 相机)
@@ -62,8 +62,8 @@ openclaw_V2.json
 
 将 Skill 文件夹 `recamera-gimbal/` 复制到你的 OpenClaw 工作空间：
 
-```bash
-~/.openclaw/workspace/skills/recamera-gimbal/
+```bash   ”“bash
+~/.openclaw/workspace/skills/recamera-gimbal/~ / .openclaw /工作区/技能/ recamera-gimbal /
 ```
 
 -----
