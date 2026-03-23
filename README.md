@@ -135,6 +135,7 @@ http://<DEVICE_IP>:1880/api/photo
 
 ## How It Works
 
+```mermaid
 graph TD
     Camera[摄像头] --> Model[YOLO 检测]
     Model --> SaveImage[保存图像]
@@ -147,6 +148,7 @@ graph TD
 
     SaveImage --> Global[(全局缓存)]
     Global --> ServePhoto
+```
 
 
 
