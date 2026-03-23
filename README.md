@@ -6,6 +6,8 @@
 
 # reCamera\_Gimbal-OpenClaw
 
+(https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
+
 > Use OpenClaw to control the motor, camera, LED, microphone, and speaker of a reCamera Gimbal.
 
 ## What This Is
