@@ -1,10 +1,12 @@
+<p align="right">
+  <strong>English</strong> | <a href="./README_zh.md">简体中文</a>
+</p>
 
-
----
-
-![reCamera\_Gimbal\&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
+![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
 
 # reCamera_Gimbal-OpenClaw
+...
+
 
 > Use OpenClaw to control the motor, camera, LED, microphone, and speaker of a reCamera Gimbal.
 
