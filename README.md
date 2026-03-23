@@ -135,20 +135,18 @@ http://<DEVICE_IP>:1880/api/photo
 
 ## How It Works
 
-graph LR
-    Core[reCamera Gimbal System]
+graph TD
+    Camera[Camera] --> Model[YOLO Detection]
+    Model --> SaveImage[Save Image]
+    Model --> Preview[Preview Rendering]
 
-    Core --> Camera
-    Camera --> Capture[Image Capture]
-    Camera --> Preview[Web Preview]
+    HTTP_Gimbal[/api/gimbal/] --> Parser[Parameter Parsing]
+    Parser --> Motor[Motor Control]
 
-    Core --> API
-    API --> GimbalAPI[Gimbal Control]
-    API --> PhotoAPI[Photo API]
+    HTTP_Photo[/api/photo/] --> ServePhoto[Return Image]
 
-    Core --> Processing
-    Processing --> Model[YOLO Detection]
-    Processing --> Storage[Image Cache]
+    SaveImage --> Global[(Global Cache)]
+    Global --> ServePhoto
 
 
 
