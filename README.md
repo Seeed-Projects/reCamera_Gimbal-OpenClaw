@@ -4,7 +4,7 @@
 
 -----
 
-![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)! [reCamera_Gimbal& OpenClaw) (https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
+![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
 
 # reCamera_Gimbal-OpenClaw
 
@@ -60,7 +60,7 @@ This creates two HTTP endpoints:这将创建两个HTTP端点：
 
 Copy the skill folder `recamera-gimbal/` into your OpenClaw workspace:
 
-```bash   ”“bash
+```bash   ”“bash   “bash”;“bash
 ~/.openclaw/workspace/skills/recamera-gimbal/~ / .openclaw /工作区/技能/ recamera-gimbal /
 ```
 
