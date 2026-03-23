@@ -1,6 +1,12 @@
-![reCamera\_Gimbal\&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
+<p align="right">
+  <a href="./README.md">English</a> | <strong>简体中文</strong>
+</p>
+
+![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
 
 # reCamera_Gimbal-OpenClaw
+...
+
 
 > 使用 OpenClaw 控制 reCamera Gimbal 的电机、摄像头、LED、麦克风和扬声器。
 
