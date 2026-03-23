@@ -1,58 +1,58 @@
 -----
 
-[English] | [简体中文](https://www.google.com/search?q=./README_zh.md)
+[English   英语] | [简体中文](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/blob/main/README_zh.md)
 
 -----
 
-![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
+![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)! [reCamera_Gimbal& OpenClaw) (https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
 
 # reCamera_Gimbal-OpenClaw
 
-> Use OpenClaw to control the motor, camera, LED, microphone, and speaker of a reCamera Gimbal.
+> Use OpenClaw to control the motor, camera, LED, microphone, and speaker of a reCamera Gimbal.使用OpenClaw来控制摄像机云台的电机、相机、LED、麦克风和扬声器。
 
-## What This Is
+## What This Is   ##这是什么   这是什么
 
-This project provides an **OpenClaw Skill + Node-RED flow** for controlling a **reCamera Gimbal edge AI camera**.
+This project provides an **OpenClaw Skill + Node-RED flowOpenClaw技能Node-RED flow** for controlling a **reCamera Gimbal edge AI camera摄像头云台边缘AI摄像头**.这个项目提供了一个**OpenClaw Skill Node-RED flowOpenClaw技能Node-RED flow**用于控制**reCamera Gimbal edge AI camera摄像头云台边缘AI摄像头**。
 
-It enables:
+It enables:   它使:
 
-  * Motor (yaw/pitch) control via HTTP API
-  * Image capture and retrieval
-  * LED control
-  * Audio recording and playback
-  * Vision-based interaction via OpenClaw
+  * Motor (yaw/pitch) control via HTTP API*通过HTTP API控制电机（偏航/俯仰）
+  * Image capture and retrieval*图像捕获和检索
+  * LED control   * LED控制
+  * Audio recording and playback*录音和回放
+  * Vision-based interaction via OpenClaw*通过OpenClaw进行基于视觉的交互
 
-**Role in OpenClaw:** Skill (with external Node-RED runtime integration)
-
------
-
-## Prerequisites
-
-> [\!IMPORTANT]
-> You need the following components (derived from project files):
-
-  * A **reCamera Gimbal device** (RISC-V edge AI camera)
-  * **Node-RED** running on the device (port `1880`)
-  * **OpenClaw** environment with `Exec` tool enabled
-  * Network access to the device (local IP like `192.168.31.xxx`)
-  * PowerShell (for Windows-based skill scripts)
+**Role in OpenClaw:   在OpenClaw中的角色：** Skill (with external Node-RED runtime integration)** OpenClaw中的角色：**技能（与外部Node-RED运行时集成）
 
 -----
 
-## Quick Start
+## Prerequisites   # #先决条件
 
-### 1\. Import Node-RED Flow
+> [\!IMPORTANT]   在[\ !重要的)
+> You need the following components (derived from project files):你需要以下组件（来自项目文件）：
 
-Import the provided file into Node-RED:
+  * A **reCamera Gimbal device** (RISC-V edge AI camera)** *reCamera Gimbal设备** （RISC-V edge AI camera）
+  * **Node-RED** running on the device (port `1880`)** *Node-RED**在设备上运行（端口`1880`）
+  * **OpenClaw** environment with `Exec` tool enabled** *OpenClaw**环境，启用`Exec`工具
+  * Network access to the device (local IP like `192.168.31.xxx`)*对设备的网络访问（本地IP，如`192.168.31.xxx`）
+  * PowerShell (for Windows-based skill scripts)* PowerShell（适用于基于windows的skill脚本）
+
+-----
+
+## Quick Start   ##快速入门
+
+### 1\. Import Node-RED Flow# # # 1 \。导入Node-RED流
+
+Import the provided file into Node-RED:将提供的文件导入Node-RED：
 
 ```
 openclaw_V2.json
 ```
 
-This creates two HTTP endpoints:
+This creates two HTTP endpoints:这将创建两个HTTP端点：
 
-  * Control gimbal: `http://<DEVICE_IP>:1880/api/gimbal?yaw=90&pitch=45`
-  * Capture photo: `http://<DEVICE_IP>:1880/api/photo`
+  * Control gimbal: `http://<DEVICE_IP>:1880/api/gimbal?yaw=90&pitch=45`*控制云台：`http://<；DEVICE_IP>:1880/api/gimbal?yaw=90&pitch=45`
+  * Capture photo: `http://<DEVICE_IP>:1880/api/photo`*图片：`http://<；DEVICE_IP>:1880/api/photo`
 
 -----
 
@@ -60,8 +60,8 @@ This creates two HTTP endpoints:
 
 Copy the skill folder `recamera-gimbal/` into your OpenClaw workspace:
 
-```bash
-~/.openclaw/workspace/skills/recamera-gimbal/
+```bash   ”“bash
+~/.openclaw/workspace/skills/recamera-gimbal/~ / .openclaw /工作区/技能/ recamera-gimbal /
 ```
 
 -----
