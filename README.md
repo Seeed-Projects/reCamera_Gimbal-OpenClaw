@@ -1,6 +1,6 @@
-<p align="right">
-  <strong>English</strong> | <a href="./README_zh.md">简体中文</a>
-</p>
+[English] | [简体中文](./README_zh.md)
+
+---
 
 ![reCamera_Gimbal&OpenClaw](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/raw/main/reCamera_Gimbal%26OpenClaw.png)
 
