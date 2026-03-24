@@ -103,10 +103,10 @@ Test APIs manually:
 
 ```bash
 # Move gimbal
-curl "http://<DEVICE_IP>:1880/api/gimbal?yaw=120&pitch=90"
+http://<DEVICE_IP>:1880/api/gimbal?yaw=120&pitch=90
 
 # Get image
-curl "http://<DEVICE_IP>:1880/api/photo"
+http://<DEVICE_IP>:1880/api/photo
 ```
 
 If successful:
