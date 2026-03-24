@@ -103,10 +103,10 @@ openclaw_V2.json
 
 ```bash
 # 移动云台
-curl "http://<设备_IP>:1880/api/gimbal?yaw=120&pitch=90"
+http://<设备_IP>:1880/api/gimbal?yaw=120&pitch=90
 
 # 获取图像
-curl "http://<设备_IP>:1880/api/photo"
+http://<设备_IP>:1880/api/photo
 ```
 
 如果成功：
