@@ -10,6 +10,7 @@
 
 > Use OpenClaw to control the motor, camera, LED, microphone, and speaker of a reCamera Gimbal.
 
+Wiki Link:https://wiki.seeedstudio.com/use_cpenclaw_to_control_the_recamera_gimbal/
 ## What This Is
 
 This project provides an **OpenClaw Skill + Node-RED flow** for controlling a **reCamera Gimbal edge AI camera**.
