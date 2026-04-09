@@ -10,6 +10,8 @@
 
 > 使用 OpenClaw 控制 reCamera Gimbal 的电机、相机、LED、麦克风和扬声器。
 
+Wiki链接：https://wiki.seeedstudio.com/use_cpenclaw_to_control_the_recamera_gimbal/
+
 ## 项目简介
 
 本项目为 **reCamera Gimbal 边缘 AI 相机**提供了一套 **OpenClaw Skill + Node-RED 流程**。
